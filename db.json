@@ -1,94 +1,34 @@
-
+{
+  "posts": [
     {
-      "_id": "1",
-      "index": 0,
-      "picture": "http://placehold.it/32x32",
-      "age": 30,
-      "name": "Melton Boyle",
-      "company": "NEUROCELL",
-      "email": "meltonboyle@neurocell.com",
-      "address": "488 Hendrickson Place, Fivepointville, Federated States Of Micronesia, 1411",
-      "about": "Id commodo dolore irure adipisicing consectetur laborum aliquip nostrud velit. Irure nisi eu ex nostrud esse labore. Exercitation nostrud excepteur culpa est enim.\r\n",
-      "latitude": 34.926583,
-      "longitude": 64.601038,
-      "tags": [
-        "consequat",
-        "et",
-        "veniam",
-        "anim",
-        "tempor",
-        "amet",
-        "elit"
-      ],
-      "greeting": "Hello, Melton Boyle! You have 10 unread messages."
+      "id": 1,
+      "title": "Post 1",
+      "description": "this is description 1"
     },
     {
-      "_id": "2",
-      "index": 1,
-      "picture": "http://placehold.it/32x32",
-      "age": 26,
-      "name": "Estes Blackwell",
-      "company": "BILLMED",
-      "email": "estesblackwell@billmed.com",
-      "address": "171 Barbey Street, Newry, Hawaii, 1512",
-      "about": "Enim consequat anim consectetur elit laborum tempor amet sint do dolor non. Commodo cupidatat quis et exercitation deserunt dolore proident exercitation dolore sit amet laborum laborum. Commodo deserunt sit nisi dolor. Eu officia labore exercitation officia consequat id eiusmod. Consectetur ipsum aliquip anim deserunt eu sit velit et dolore esse adipisicing eu.\r\n",
-      "latitude": -84.416556,
-      "longitude": 133.281614,
-      "tags": [
-        "sit",
-        "deserunt",
-        "Lorem",
-        "pariatur",
-        "ea",
-        "sunt",
-        "minim"
-      ],
-      "greeting": "Hello, Estes Blackwell! You have 5 unread messages."
+      "id": 2,
+      "title": "Post 2",
+      "description": "this is description 2"
     },
     {
-      "_id": "3",
-      "index": 2,
-      "picture": "http://placehold.it/32x32",
-      "age": 27,
-      "name": "Sue Gould",
-      "company": "XINWARE",
-      "email": "suegould@xinware.com",
-      "address": "594 Veranda Place, Wilmington, Oregon, 784",
-      "about": "In et nulla minim qui cillum minim tempor voluptate. Excepteur aute anim sit dolore adipisicing. Id ex excepteur dolor voluptate sit deserunt irure et mollit adipisicing. Ullamco exercitation pariatur adipisicing adipisicing. Occaecat exercitation nulla commodo non reprehenderit dolore et reprehenderit nisi aliquip qui dolore nulla est. Duis quis deserunt exercitation tempor aliquip voluptate reprehenderit ullamco cupidatat nostrud.\r\n",
-      "latitude": -28.957498,
-      "longitude": -75.838681,
-      "tags": [
-        "ea",
-        "occaecat",
-        "minim",
-        "reprehenderit",
-        "ad",
-        "anim",
-        "mollit"
-      ],
-      "greeting": "Hello, Sue Gould! You have 2 unread messages."
-    },
-    {
-      "_id": "4",
-      "index": 3,
-      "picture": "http://placehold.it/32x32",
-      "age": 22,
-      "name": "Pickett Stafford",
-      "company": "MENBRAIN",
-      "email": "pickettstafford@menbrain.com",
-      "address": "540 Bennet Court, Glenbrook, New Mexico, 7077",
-      "about": "Sint ex id magna ut elit quis dolore consequat consequat nostrud nisi cupidatat anim. In amet nulla minim amet nostrud occaecat do. Reprehenderit exercitation deserunt sit ea irure qui consequat est elit tempor velit pariatur. Magna in consequat enim esse occaecat culpa nisi duis fugiat irure amet adipisicing. Deserunt amet esse cupidatat non aute nostrud.\r\n",
-      "latitude": 1.991253,
-      "longitude": 111.391581,
-      "tags": [
-        "occaecat",
-        "labore",
-        "culpa",
-        "et",
-        "ex",
-        "duis",
-        "commodo"
-      ],
-      "greeting": "Hello, Pickett Stafford! You have 8 unread messages."
+      "id": 3,
+      "title": "Post 3",
+      "description": "this is description 3"
     }
-  
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "comment 1",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "comment 2",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "Profile 1"
+  }
+}
